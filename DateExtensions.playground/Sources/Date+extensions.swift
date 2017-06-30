@@ -90,4 +90,5 @@ public extension Date {
         let weekRange = (calendar as NSCalendar).range(of: NSCalendar.Unit.weekOfYear, in: NSCalendar.Unit.month, for: self)
         
         return weekRange.length
-    }}
+    }
+}
